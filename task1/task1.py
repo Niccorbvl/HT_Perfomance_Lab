@@ -1,4 +1,6 @@
-n, m = map(int, input().split())
+import sys
+
+n, m = int(sys.argv[1]), int(sys.argv[2])
 FirstElement = 1
 FirstIteration = True
 while (FirstElement != 1) or FirstIteration:
